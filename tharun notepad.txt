@@ -1,0 +1,101 @@
+ $env:API_KEY="sk-42lzbnjt7L0zZ9qoI7_WhQ"
+ python app.py
+
+set API_KEY="sk-hruotENWVoCd5q7NAGtEJA"
+
+python app.py
+
+daksh.upadhyay@tcs.com
+
+--------------
+Create a professional PowerPoint presentation for a hackathon project.
+
+Project Title: Backup Readiness Scorecard with AI Insights
+
+Audience: Technical judges and business stakeholders
+
+Slides needed: 10–12 slides
+Style: Clean, modern, professional (dark + blue theme)
+Include icons, diagrams, and minimal text per slide.
+
+Content to include:
+
+1. Title Slide
+- Project name
+- Team name
+- Tagline: "AI-driven backup reliability and risk analysis"
+
+2. Problem Statement
+- Organizations take backups but rarely validate them
+- No visibility into backup health
+- Failures are discovered only during incidents
+- Manual monitoring is inefficient
+
+3. Solution Overview
+- Web-based dashboard to monitor backup readiness
+- Combines rule-based logic + AI insights
+- Provides real-time system classification and recommendations
+
+4. Key Features
+- Add system details (backup, success rate, test date)
+- Dashboard with status (Ready / At-Risk / Critical)
+- CSV upload & export
+- Charts & analytics
+- AI-powered recommendations
+
+5. Architecture Diagram
+- Frontend: HTML, Bootstrap
+- Backend: Flask (Python)
+- Database: SQLite
+- AI Layer: LLM API (GPT-based)
+- Flow: UI → Flask → Rules → AI → Response
+
+6. Rule Engine Logic
+- Ready: backup ≤ 10 days AND success ≥ 81%
+- At-Risk: backup ≤ 30 days AND success 60–80%
+- Critical: backup > 30 days OR success < 60%
+- Based on RPO and reliability thresholds
+
+7. AI Functionality (IMPORTANT)
+- Uses LLM (Large Language Model)
+- Input: system metrics (backup age, success rate, status)
+- Output:
+  - Root cause
+  - Risk explanation
+  - Remediation steps
+- Dynamic (not hardcoded)
+
+Example:
+Input: Backup age 5 days, success 60%
+Output: Recommend improving reliability and validating restore
+
+8. Demo Flow
+- Add system manually
+- Upload CSV file
+- View dashboard
+- Click "Get AI Insight"
+- See AI-generated recommendation
+
+9. Business Value
+- Reduces risk of data loss
+- Improves backup reliability
+- Saves manual effort
+- Enables proactive decision-making
+
+10. Innovation
+- Combines deterministic rules + Generative AI
+- Real-time insights
+- Fallback mechanism if AI fails
+
+11. Future Enhancements
+- AI chatbot for querying systems
+- Predictive failure detection
+- Cloud integration (AWS/Azure)
+- Role-based access
+
+12. Conclusion
+- Ensures backup readiness and recoverability
+- Transforms reactive monitoring into proactive intelligence
+
+Make slides visually appealing with icons and diagrams.
+Keep bullet points short and clear.

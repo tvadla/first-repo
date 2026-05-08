@@ -1,0 +1,34 @@
+DEVELOP SOFTWARE USING ARTIFICIAL INTELLIGENCE (AI) TOOLS/AI Agents FOR THE FOLLOWING USER STORY__
+User Story
+Backup & Recovery Readiness Scorecard Platform
+As an infrastructure resilience lead, I want a backup readiness tool that classifies systems into Ready, At-Risk, and Critical based on backup freshness and success rate, so that I can reduce recovery failures without advanced analytics.
+
+Objective
+Build a rule-based backup readiness scoring module and dashboard.
+
+Readiness Logic
+
+Ready: Last backup within RPO window + success rate above threshold
+At-Risk: Backup within window but low success rate or missing periodic test
+Critical: RPO breached or repeated failures
+Key Features
+
+Rule Engine: Define RPO thresholds and success-rate thresholds
+Manual Data Entry / Upload: System, last backup time, success rate, test date, owner
+Automatic Classification: Ready/At-Risk/Critical
+Dashboard: Readiness by system tier, owner; filters + summary totals
+Export Option: CSV/PDF remediation list for resilience reviews
+Deliverables
+Deliverables are expected to be of production-level quality, ensuring excellence in both content and look & feel.
+
+Application Architecture and Architecture document
+Technical Architecture document (stack + AI components + data flow)
+Database design / Data Models – No JSON input of data, use any RDBMS; include logical model, physical model and ER diagram
+UI/Ux/Wireframe Design
+AI Agent – “Code Quality Checker” built with an AI framework and Streamlit or Gradio; takes code and checklist as input and provides observations + suggestions
+Instructions
+Use AI tools or Build Your Own AI Agents (BYOAA) to develop the software and deliverables.
+
+Selection of Tools: Carefully evaluate and select the most suitable AI tools or frameworks for each phase of the project. If building custom AI agents, ensure they are scalable, maintainable. Additional weightage will be given if team builds their own AI agent to create the deliverables.
+Documentation: Maintain clear and detailed documentation for all deliverables, including architecture diagrams, data models, and user manuals. Update documents regularly as changes are made.
+User Experience: Prioritise a user-centric approach in UI/UX design. Avoid using Streamlit or Gradio for the user interface.
